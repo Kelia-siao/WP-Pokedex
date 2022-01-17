@@ -1,0 +1,132 @@
+.section-pres{
+background-image: url(http://localhost:8888/wordpress/wp-content/uploads/2022/01/image-54.png);
+position: relative;
+display: grid;
+grid-template-columns: 50% 50%;
+padding-left: 5rem;
+padding-right: 5rem;
+padding-top: 2rem;
+
+
+}
+
+.dialogue-box{
+    position: relative;
+width: 80%;
+height: 10;
+
+
+
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 40px;
+margin-bottom: 150px;
+}
+.dialogue-box > h1{
+
+    position: relative;
+   
+}
+.section-pres img{
+    position: relative;
+    right: 0px;
+}
+
+.section-left{
+
+    display: grid;
+    grid-template-columns: 35% 65%;
+    position: relative;
+    padding:90px;
+    margin-top: 90px;
+    padding-top: 0px;
+
+}
+.section-right{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    position: relative;
+    padding:90px;
+
+}
+.img-chiffre p{
+    font-size: 15rem;
+}
+.img-chiffre{position: relative;}
+.img-chiffre div img{
+    position: absolute;
+    top: -54px;
+}
+
+
+.img-chiffre-right p{
+    font-size: 15rem;
+}
+.img-chiffre-right{position: relative;}
+.img-chiffre-right div img{
+    position: absolute;
+    top: -3.5rem;
+    right: 0px;
+}
+
+.reverse-column-left{
+    grid-column-start:2;
+}
+.reverse-column-right{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    
+
+}
+
+.infos-grid{
+
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-between;
+    
+}
+.infos{
+ display: flex;
+ flex-direction: column;
+}
+.infos button {
+width: 50%;
+
+}
+
+.h1-left{
+    border-bottom: 3px solid white;
+    padding-bottom: 10px;
+    text-align: left;
+    
+    
+}
+.h1-right{
+    border-bottom: 3px solid white;
+    padding-bottom: 10px;
+    text-align: right;
+    
+    
+}
+
+
+.bg-image-1{
+    background-image:url(http://localhost:8888/wordpress/wp-content/uploads/2022/01/image-46.png) ;
+}
+.bg-image-2{
+    background-image:url(http://localhost:8888/wordpress/wp-content/uploads/2022/01/image-47.png) ;
+}
+.bg-image-3{
+    background-image:url(http://localhost:8888/wordpress/wp-content/uploads/2022/01/image-46.png) ;
+}
+.negapi div img{
+   top: -124px;
+   left: -70px;
+  
+}
+.gobou div img{
+    position: absolute;
+    top: -120px;
+    right: -24px;
+}
