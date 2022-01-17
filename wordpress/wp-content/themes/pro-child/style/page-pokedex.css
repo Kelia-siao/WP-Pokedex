@@ -1,0 +1,14 @@
+.section-pokemon{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 45px;
+    margin-right: 45px;
+    row-gap: 50px;
+
+
+
+}
+.section-pokemon>* {
+    flex: 3 4 33%;
+}

@@ -1,130 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Montserrat:wght@400;500;600;700&display=swap');
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-    display: block;
-    font-family: 'Montserrat', sans-serif;
-}
-body {
-    line-height: 1;
-}
-ol,
-ul {
-    list-style: none;
-}
-blockquote,
-q {
-    quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-    content: "";
-    content: none;
-}
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
 .hero {
     background: black;
     padding-top: 200px;
@@ -140,67 +13,11 @@ table {
     position: relative;
     z-index: 10;
 }
-.white {
-    color: white;
-}
-.black{
-    color: black;
-}
-.f-size-18 {
-    font-size: 18px;
-}
-.f-size-48 {
-    font-size: 48px;
-}
-.f-size-60 {
-    font-size: 60px;
-}
-.f-size-24 {
-    font-size: 24px;
-
-}
-.f-f-1{
-    font-family: 'Montserrat', sans-serif;
-}
-.f-f-2{
-    font-family: 'Bakbak One', cursive; 
-}
-.f-w-800{
-    font-weight: 800px;
-}
-.m-15 {
-    margin-bottom: 15px;
-}
-.m-25 {
-    margin-bottom: 25px;
-}
-.m-35 {
-    margin-bottom: 35px;
-}
-
-.bg-b{
-    background-color: #000000;
-}
-.bg-r{
-    background-color: #A82424;
-}
-.bg-w{
-    background-color: #FFFFFF;
-}
-.border-w{
-    border: solid 1px #ffffff;
-}
-.border-b{
-    border: solid 1px #000000;
-}
 .block-img-hero {
     position: absolute;
     right: 45px;
     top: 0;
     z-index: 1;
-}
-.p-90{
-    padding: 90px;
 }
 .block-img-hero img {
     z-index: -3;
@@ -216,11 +33,7 @@ table {
 .team > div {
     background: #A82424;
 }
-.actu h1{
-    
-    
 
-}
 .card{
     padding: 16px;
     padding-bottom: 40px;

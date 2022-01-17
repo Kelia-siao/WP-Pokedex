@@ -2,8 +2,7 @@
 
 <?php get_header()?>
 
-
-
+<style><?php include "style/reset.css"?></style>
 <style><?php include "style/front-page.css"?></style>
 
 
