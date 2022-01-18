@@ -10,3 +10,182 @@ Template: pro
 
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Montserrat:wght@400;500;600;700&display=swap');
+
+.pokedex-title{
+    font-family: 'Bakbak One';
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+
+
+.pokedex-gris{
+    color: #C4C4C4;
+}
+
+.pokedex-title{
+    color: #A82424;
+}
+
+.pokedex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.pokedex-seul{
+    position: relative;
+    box-shadow: 0px 1px 15px rgba(196, 196, 196, 0.45);
+    border-radius: 20px;
+    margin: 32px 24px;
+    padding: 34px;
+    text-align: center;
+    font-family: 'Bakbak One';
+}
+
+
+.pokedex .pokedex-seul:nth-of-type(3n+1) {
+    margin-right: 10px;
+}
+
+.pokedex .pokedex-seul:nth-child(3n){
+    margin-left: 10px;
+}
+
+
+.icone-add {
+    position: absolute;
+    top: -29px;
+    right: -29px;
+}
+
+
+.stat{
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    width: 60px;
+    height: 102px;
+    box-shadow: 0px 1px 15px rgba(196, 196, 196, 0.45);
+    border-radius: 30px;
+    margin: 20px;
+    padding: 6px;
+}
+
+.all-stat{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.all-stat .stat:first-child {
+    margin-left: 0;
+}
+.all-stat .stat:last-child {
+    margin-right: 0;
+}
+
+
+.name-stat{
+    background-color: #A82424;
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.num-stat{
+    font-size: 26px;
+}
+
+
+.pokemon-type{
+    background-color: #A8EF88;
+    width: 134px;
+    height: 54px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.name-type{
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-weight: bold;
+
+}
+
+.type-sol{
+    background-color: #D0B182;
+
+}
+
+.name-life{
+    color: #5C503D;
+
+}
+
+.type{
+    display: flex;
+    align-items: center;
+}
+
+.type-normal {
+	background-color: #a8a878;
+}
+.type-fire {
+	background-color: #78c850;
+}
+.type-ground {
+	background-color: #e0c068;
+}
+.type-fighting {
+	background-color: #c03028;
+}
+.type-rock {
+	background-color: #b8a038;
+}
+.type-steel {
+	background-color: #b8b8d0;
+}
+.type-fire {
+	background-color: #f08030;
+}
+.type-electric {
+	background-color: #f8d030;
+}
+.type-flying {
+	background-color: #a890f0;
+}
+.type-psychic {
+	background-color: #f85888;
+}
+.type-bug {
+	background-color: #a8b820;
+}
+.type-dragon {
+	background-color: #7038f8;
+}
+.type-water {
+	background-color: #6890f0;
+}
+.type-ice {
+	background-color: #98d8d8;
+}
+.type-poison {
+	background-color: #a040a0;
+}
+.type-dark {
+	background-color: #705848;
+}
+.type-ghost {
+	background-color: #705898;
+}
+.type-fairy {
+	background-color: #ffaec9;
+}

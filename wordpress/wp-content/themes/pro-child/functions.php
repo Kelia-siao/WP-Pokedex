@@ -23,3 +23,11 @@ add_filter( 'x_enqueue_parent_stylesheet', '__return_true' );
 // Additional Functions
 // =============================================================================
 
+add_action( 'pre_get_posts', 'custom_reverse_post_order' );
+function custom_reverse_post_order( $query ) {
+    if ( is_admin() )
+        return;
+    if ( $query->is_main_query() && is_archive() && ($query->query_vars['post_type'] == 'pokemon')  ) {
+        $query->set( 'order', 'ASC' );
+    }
+}

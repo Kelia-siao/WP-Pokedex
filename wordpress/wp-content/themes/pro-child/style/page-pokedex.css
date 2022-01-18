@@ -12,3 +12,11 @@
 .section-pokemon>* {
     flex: 3 4 33%;
 }
+
+.page .page-numbers {
+    color: green;
+    font-family: 'Montserrat';
+
+    align-items: center;
+}
+

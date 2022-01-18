@@ -33,7 +33,24 @@
             <img src="http://localhost:8888/wordpress/wp-content/uploads/2022/01/img_hero_section-1.png" alt="">
         </div>
     </section>
-    <section class="card_pokemon"></section>
+    
+    <section class="card_pokemon">
+        <h2 class="pokedex-title">Le Pokédex - <span class="pokedex-gris">Attrapez les tous ! </span> </h2>
+
+        <div class="pokedex">
+            <?php 
+                $pokemons = get_posts(array(
+                    'numberposts' => 3,
+                    'post_type'   => 'pokemon',
+                    'order' => 'ASC'
+                ));
+                foreach($pokemons as $pokemon):
+                    get_template_part('template-parts/carte-pokemon', 'carte-pokemon', array('pokemon' => $pokemon));
+                endforeach;
+            ?>
+        </div>
+    </section>
+
     <section class="team">
         <div class="p-90"> 
             <h1 class="white f-size-48 f-f-2 m-35">Créer ton équipe !</h1>
