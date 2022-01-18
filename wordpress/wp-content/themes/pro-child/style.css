@@ -53,12 +53,21 @@ Template: pro
 }
 
 
-.icone-add {
+.icone-add, .icone-moins {
     position: absolute;
     top: -29px;
     right: -29px;
 }
 
+.icone-moins,
+.pas-de-plus .icone-add {
+    display: none;
+}
+
+
+.avoir-moins .icone-moins{
+    display: block;
+}
 
 .stat{
     box-sizing: border-box;
@@ -166,7 +175,7 @@ Template: pro
 	background-color: #f85888;
 }
 .type-bug {
-	background-color: #a8b820;
+	background-color: #A8EF88;
 }
 .type-dragon {
 	background-color: #7038f8;

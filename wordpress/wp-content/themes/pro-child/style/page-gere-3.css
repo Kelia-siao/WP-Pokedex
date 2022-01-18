@@ -1,0 +1,54 @@
+h1{
+    font-weight: bold;
+    font-family: 'montserrat';
+    margin: 50px 0 30px 50px;
+}
+.nom-equipe{
+    border: #a82424 solid;
+    background-color: #a82424;
+    border-radius: 50px;
+    width: 300px;
+    height: 60px;
+    margin: 10px 2px 30px 50px;
+    padding: 15px;
+
+}
+
+.nom-equipe-1{
+    border: #a82424 solid;
+    background-color: transparent;
+    border-radius: 50px;
+    width: 300px;
+    height: 60px;
+    margin: 10px 2px 30px 50px;
+    padding: 15px;
+
+
+}
+
+
+
+
+.equipe{
+    line-height: normal;
+    /*margin: 30px 15px 30px 15px; */
+    font-weight: bold;
+    margin-left: 50px;
+
+}
+
+
+.all-joueur{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.joueur-seul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+    font-family: 'montserrat';
+
+}

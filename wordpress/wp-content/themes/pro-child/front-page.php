@@ -16,12 +16,6 @@
     <title>Document</title>
 </head>
 
-
-
-
-
-
-<body>
     <section class="hero">  
         <div class="block-txt-hero">
             <h3 class="white f-size-18 m-15">Bienvenue chez Pokédex</h3>
@@ -35,7 +29,7 @@
     </section>
     
     <section class="card_pokemon">
-        <h2 class="pokedex-title">Le Pokédex - <span class="pokedex-gris">Attrapez les tous ! </span> </h2>
+        <h2 class="pokedex-title">Le Pokédex </h2>
 
         <div class="pokedex">
             <?php 
@@ -63,32 +57,34 @@
         </div>
 
     </section>
-    <section class="actu bg-b">
-    <h1 class="white f-f-2 f-size-48 p-90">Actualités du moment</h1>
-    <div class="section-card">
-            <div class="card bg-w">
-                    <img src="http://localhost:8888/wordpress/wp-content/uploads/2022/01/img_actu-2-1.png" alt="">
-                    <p class="black infos">Pokémon, la série : XY –La quête de Kalos arrive sur TV Pokémon.</p>
-                    <p class="f-f-2 black">04 janv. 2022</p>
-                </div>
-                <div class="card bg-w">
-                    <img src="http://localhost:8888/wordpress/wp-content/uploads/2022/01/img_actu-2-1.png" alt="">
-                    <p class="black infos">Pokémon, la série : XY –La quête de Kalos arrive sur TV Pokémon.</p>
-                    <p class="f-f-2 black">04 janv. 2022</p>
-                </div>
-                <div class="card bg-w">
-                    <img src="http://localhost:8888/wordpress/wp-content/uploads/2022/01/img_actu-2-1.png" alt="">
-                    <p class="black infos">Pokémon, la série : XY –La quête de Kalos arrive sur TV Pokémon.</p>
-                    <p class="f-f-2 black">04 janv. 2022</p>
-                </div>
 
-
-
-    </div>
-   
-
-    </section>
-   
-</body>
 </html>
+
+   <!-- Query actualité  -->
+<?php
+    $arguments = [
+            'post_type' => 'pokemon-actu',
+            'posts_per_page' => '3',
+    ];
+    $infos = new WP_Query($arguments); 
+    ?> 
+
+        <!-- Actualité -->
+        <?php if ($infos->have_posts()) : ?>
+                <section class="actu bg-b">
+                <h1 class="white f-f-2 f-size-48 p-90">Actualités du moment</h1>
+                <div class="section-card">
+            <?php while ($infos->have_posts()) : ?>
+            <?php $infos->the_post(); ?>
+                        <div class="card bg-w">
+                                <img src="<?= the_field("image"); ?>" alt="">
+                                <p class="black infos"> <?php echo get_the_title(); ?> </p>
+                                <p class="f-f-2 black"> <?php echo get_the_date(); ?>  </p>
+                            </div>
+            <?php endwhile; ?>
+            </div>
+        </section>
+    <?php endif; ?>
+
+
 <?php get_footer() ?>

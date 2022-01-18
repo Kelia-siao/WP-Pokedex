@@ -126,6 +126,9 @@ table {
     border-spacing: 0;
 }
 
+.red{
+    color: #a82424;
+}
 .white {
     color: white;
 }
@@ -136,6 +139,11 @@ table {
     font-size: 18px;
     line-height: 24px;
 }
+
+.f-size-28 {
+    font-size: 1.75rem;
+}
+
 .f-size-48 {
     font-size: 3rem;
 }

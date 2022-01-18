@@ -31,3 +31,11 @@ function custom_reverse_post_order( $query ) {
         $query->set( 'order', 'ASC' );
     }
 }
+
+function shapeSpace_filter_search($query) {
+	if (!$query->is_admin && $query->is_search) {
+		$query->set('post_type', array('pokemon'));
+	}
+	return $query;
+}
+add_filter('pre_get_posts', 'shapeSpace_filter_search');

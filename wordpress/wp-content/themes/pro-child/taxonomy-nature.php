@@ -11,9 +11,10 @@
             <input class="barre" type="submit" name="submit">
         </form>
     </div>
-</section>
-<h2 class="pokedex-title">Le Pokédex - <span class="pokedex-gris">Attrapez les tous ! </span> </h2>
-<div
+</section> 
+<!-- récupérer nom de la nature -->
+<h2 class="pokedex-title">Tous les Pokémons de type <span class="pokedex-gris"><?php single_term_title(); ?></span> </h2>
+<div>
 <section class="card_pokemon">
     <div class="pokedex">
             <?php 

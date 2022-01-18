@@ -1,0 +1,81 @@
+h1{
+    font-weight: bold;
+    font-family: 'montserrat';
+    margin: 50px 0 30px 50px;
+}
+
+.title{
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+.last-stat{
+    border: #a82424 solid;
+    background-color: #a82424;
+    border-radius: 15px;
+    width: 202px;
+    height: 247px;
+    margin: 30px 2px 30px 50px;
+}
+
+.stat-seul{
+    position: relative;
+    text-align: center;
+    margin-top: 33px;
+}
+
+.info{
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.info-2 {
+    margin-top: 31px;
+    font-weight: bold;
+}
+
+.info-3{
+    margin-top: 33px;
+    font-weight: bold;
+}
+
+.all-stat{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.video{
+    border-radius: 30px;
+}
+
+.all-stat .last-stat:nth-child(3n){
+    margin-right: 50px;
+}
+
+.equipe{
+    line-height: normal;
+    /*margin: 30px 15px 30px 15px; */
+    text-align: center;
+}
+
+.pas-de-plus .icone-add{
+    display: none;
+}
+
+.cat{
+    margin: 125px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.manage{
+    border: #a82424 solid;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto 20px;
+    width: 200px;
+
+}

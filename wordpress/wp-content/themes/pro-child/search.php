@@ -11,9 +11,10 @@
             <input class="barre" type="submit" name="submit">
         </form>
     </div>
-</section>
-<h2 class="pokedex-title">Le Pokédex - <span class="pokedex-gris">Attrapez les tous ! </span> </h2>
-<div
+</section> 
+<!-- get_search_query() permet de récupérer la recherche -->
+<h2 class="pokedex-title">Pokémons ayant le nom <span class="pokedex-gris"><?php echo get_search_query(); ?></span> </h2>
+<div>
 <section class="card_pokemon">
     <div class="pokedex">
             <?php 
