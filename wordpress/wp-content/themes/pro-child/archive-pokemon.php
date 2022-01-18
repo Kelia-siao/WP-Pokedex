@@ -22,14 +22,17 @@
     </div>
 
 
-    <span class="page">
-        <?php
-        echo paginate_links();
+    <div class="page">
+        
+        <div class="paginate">
+            <?php
+            echo paginate_links();
 
-        ?>
+            ?>
+        </div>
 
 
-    </span>
+    </div>
     
 
 
