@@ -51,9 +51,10 @@ get_header()
             <?php 
                 $pokemons = get_posts(array(
                     'numberposts' => 6,
-                    'post_type'   => 'pokemon',
-                    'order' => 'ASC'
-                ));
+                    'post_type'=> 'pokemon',
+                    'order'=> 'ASC',
+                    'orderby'=> 'post_title'
+                   ));
                 foreach($pokemons as $pokemon):
                     get_template_part('template-parts/carte-pokemon', 'carte-pokemon', array('pokemon' => $pokemon));
                 endforeach;
