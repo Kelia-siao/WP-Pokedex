@@ -64,7 +64,7 @@
 <div>
     <p class="title f-size-28 f-f-2 red">Mes équipes</p>
    
-    <section class="card_pokemon .pas-de-plus">
+    <section class="card_pokemon .pas-de-plus ">
         <div>
             <div class="equipe">
                 <span class="cat black">#1 Pokepoka - 30
@@ -111,7 +111,7 @@
 
         
         </div>
-        <div class="pokedex pas-de-plus">
+        <div class="pokedex pas-de-plus  responsive">
             <?php 
                 $pokemons = get_posts(array(
                     'numberposts' => 3,
