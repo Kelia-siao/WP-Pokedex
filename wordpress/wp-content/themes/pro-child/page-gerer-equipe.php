@@ -33,7 +33,7 @@ get_header()
         
     </div>
 
-        <div class="equipe f-size-28 f-f-1 black">
+        <div class="equipe f-size-28 f-f-1 black ">
                     #1 Pokepoka - 30
                     <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_199_1385)">
@@ -47,7 +47,7 @@ get_header()
                     </svg>
         </div>
     
-    <div class="pokedex pas-de-plus avoir-moins">
+    <div class="pokedex pas-de-plus avoir-moins responsive">
             <?php 
                 $pokemons = get_posts(array(
                     'numberposts' => 6,

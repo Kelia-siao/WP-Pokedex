@@ -47,7 +47,7 @@ get_header()
                     </svg>
         </div>
     
-    <div class="pokedex pas-de-plus avoir-moins">
+    <div class="pokedex pas-de-plus avoir-moins responsive">
             <?php 
                 $pokemons = get_posts(array(
                     'numberposts' => 6,

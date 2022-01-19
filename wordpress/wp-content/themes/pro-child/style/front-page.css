@@ -54,5 +54,42 @@
     gap: 24px;
     padding-left: 90px;
     padding-right: 90px;
-    padding-bottom: 128px;
+    padding-bottom: 30px;
+}
+.partenaire{
+    padding: 5rem;
+    padding-top: 2rem;
+    position: relative;
+    
+    
+
+}
+.partenaire h2{
+margin-bottom: 2rem;
+
+}
+.partenaire div{
+    
+    display: flex;
+    justify-content: center;
+    
+
+}
+.button-actu{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.pokemon{
+
+padding-top: 3rem;
+
+}
+.m-t-b-50{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.txt-b{
+
+    color: black;
 }

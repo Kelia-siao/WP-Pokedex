@@ -2,8 +2,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-left: 45px;
-    margin-right: 45px;
+   
     row-gap: 50px;
 }
 
@@ -25,8 +24,9 @@
     text-align: center;
     margin-bottom: 10px;
 }
-
 .pokedex{
+    display: flex;
+    justify-content: space-around;
     margin-top: 100px;
 }
 
@@ -34,7 +34,7 @@ h1{
     font-family: 'Montserrat';
     font-weight: bold;
     color: #A82424;
-    position: absolute;
+    position: relative;
     margin: 32px;
     font-size: 30px;
 }
@@ -47,23 +47,24 @@ h2{
 
 .section-search{
     margin: 0 auto;
-    width: auto; 
+    padding-left: 2rem;
+    padding-right: 2rem;
     text-align: center;
     margin-top: 20px;
 }
 
 .barre{
-    width: 500px;
+    width: 80%;
 
 }
 
 x-btn, .button, [type="submit"] {
-    color: #ffffff;
-    border-color: #ac1100;
-    background-color: #ff2a13;
+    color: black;
+    border-color: black;
+    background-color: transparent;
     margin-bottom: 0.25em;
     text-shadow: 0 0.075em 0.075em rgb(0 0 0 / 50%);
-    box-shadow: 0 0.25em 0 0 #a71000, 0 4px 9px rgb(0 0 0 / 75%);
-    border-radius: 0.25em;
+    box-shadow: 0 0.25em 0 0 transparent, 0 4px 9px rgb(0 0 0 / 15%);
+   
+    border-radius: 0.1em;
 }
-

@@ -7,8 +7,10 @@
 <section class="section-search">
     <div>
         <form method="get" action="<?php echo home_url(); ?>">
+        
             <input class="barre" type="text" name="s" value="<?php echo get_search_query(); ?>">
             <input class="barre" type="submit" name="submit">
+       
         </form>
     </div>
 </section> 
